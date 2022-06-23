@@ -1,0 +1,89 @@
+.header {
+  background-color: rgb(216, 238, 245);
+  padding: 1vh 4vw 6vh 4vw;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ebqBlue {
+  width: 8vw;
+}
+
+.contactBtn {
+  background-color: rgb(12, 113, 236);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 1vh 2vw;
+  font-weight: 600;
+  font-size: 1vw;
+}
+
+.intro {
+  padding-left: 10vw;
+}
+
+.intro h1 {
+  line-height: 1px;
+  font-size: 2.5vw;
+}
+
+.marvice {
+  display: flex;
+  flex-direction: row;
+}
+
+.integrate {
+  font-weight: 300;
+}
+
+.intro p {
+  padding-top: 2vh;
+  width: 42vw;
+  font-size: 1.7vw;
+}
+
+/* ***** ***** ***** */
+/* ***** MEDIA ***** */
+/* ***** ***** ***** */
+
+@media only screen and (max-width: 600) {
+  .header {
+    background-color: rgb(216, 238, 245);
+    padding: 1vh 4vw 6vh 4vw;
+  }
+
+  .topnav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contactBtn {
+    background-color: rgb(12, 113, 236);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 4px 18px;
+    font-weight: 600;
+  }
+
+  h1 {
+    line-height: 0.5vh;
+    font-display: stretch;
+  }
+
+  .integrate {
+    font-weight: 300;
+  }
+
+  p {
+    padding: 1vh 15vw;
+  }
+}

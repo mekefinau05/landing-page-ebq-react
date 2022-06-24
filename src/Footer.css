@@ -33,7 +33,7 @@ button {
 /* ***** MEDIA ***** */
 /* ***** ***** ***** */
 
-@media only screen and (max-width: 600) {
+@media (max-width: 600px) {
   .footer {
     background-color: rgb(12, 113, 236);
     padding-top: 6vh;
@@ -56,6 +56,7 @@ button {
     border-radius: 50px;
     padding: 1vh 6vw;
     font-weight: 600;
+    font-size: 2vw;
   }
 
   .button {

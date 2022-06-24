@@ -50,7 +50,7 @@
 /* ***** MEDIA ***** */
 /* ***** ***** ***** */
 
-@media only screen and (max-width: 600) {
+@media (max-width: 600) {
   .images img {
     padding-top: 4vh;
     padding-bottom: 4vh;

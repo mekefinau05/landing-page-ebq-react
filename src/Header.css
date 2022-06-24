@@ -52,38 +52,29 @@
 /* ***** MEDIA ***** */
 /* ***** ***** ***** */
 
-@media only screen and (max-width: 600) {
+@media (max-width: 600) {
   .header {
-    background-color: rgb(216, 238, 245);
-    padding: 1vh 4vw 6vh 4vw;
+    color: red;
+    background-color: yellow;
   }
 
-  .topnav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  /* .topnav {
+    
   }
 
   .contactBtn {
-    background-color: rgb(12, 113, 236);
-    color: white;
-    border: none;
-    border-radius: 50px;
-    padding: 4px 18px;
-    font-weight: 600;
+    
   }
 
   h1 {
-    line-height: 0.5vh;
-    font-display: stretch;
+    
   }
 
   .integrate {
-    font-weight: 300;
+    
   }
 
   p {
-    padding: 1vh 15vw;
-  }
+    
+  } */
 }
